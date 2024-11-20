@@ -64,11 +64,35 @@ a:active {
 }
 
 .text {
+  background: url(sound\ band.jpg) no-repeat center;
+  background-size: cover;
+  height: 600px;
   position: relative;
 }
 
-/* .vibe {
+.vibe {
   position: absolute;
+  top: 50%;
   left: 50%;
-  bottom: 50%;
-} */
+  transform: translate(-50%, -50%);
+  color: white;
+  /* line-height: 40px; */
+}
+.vibe h3 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #1d1b1b;
+  color: white;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #1d1b1b;
+}
